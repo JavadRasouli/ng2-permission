@@ -4,12 +4,12 @@
 
 Make sure you are familiar with:
 
-[Managing permissions](managing-permissions)
+[Managing permissions](managing-permissions.md)
 
 ## Overview
-[Permission directive](#Permission-directive)
-[Basic usage](#Basic-usage)
-[Custom behaviour](#Custom-behaviour)
+[Permission directive](#permission-directive)
+[Basic usage](#basic-usage)
+[Custom behaviour](#custom-behaviour)
 
 ## Permission directive
 
