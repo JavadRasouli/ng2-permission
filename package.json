@@ -1,0 +1,48 @@
+{
+  "name": "ng2-permission",
+  "version": "0.0.1",
+  "description": "permission based access control for your angular2 applications.",
+  "author": "Javad Rasouli ",
+  "license": "MIT",
+  "keywords": [
+    "ng2",
+    "ng",
+    "angular",
+    "angular2",
+    "permission",
+    "role",
+    "access",
+    "control",
+    "elements permission"
+  ],
+  "files": [
+    "src",
+    "index.ts"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavadRasouli/ng2-permission.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JavadRasouli/ng2-permission/issues"
+  },
+  "homepage": "https://github.com/JavadRasouli/ng2-permission#readme",
+  "private": false,
+  "dependencies": {
+    "@angular/router": "^4.2.6"
+  },
+  "devDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/cli": "1.0.1",
+    "@angular/compiler-cli": "^4.0.0",
+    "@types/node": "~6.0.60",
+    "protractor": "~5.1.0",
+    "ts-node": "~2.0.0",
+    "copyfiles": "^1.2.0",
+    "tslint": "~4.5.0",
+    "typescript": "~2.2.0"
+  }
+}
