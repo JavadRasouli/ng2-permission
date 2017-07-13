@@ -1,33 +1,33 @@
-# Angular2Validations
-
-custom validation for Angular2 apps. 
+﻿
+Fully featured permission based access control for your angular 2.0 applications.
 
 ## Install
 
 ### npm
 
 ```
-npm install angular2-validations --save
+npm install angular2-permission --save
 ```
 
 ## Usage
 
-Import `AngularValidations` into your app's modules:
+Import `Ng2Permission` into your app's modules:
 
 ``` typescript
-import {AngularValidations} from 'angular2-validations'
+import { Ng2Permission } from 'angular2-permission';
 
 @NgModule({
   imports: [
-    AngularValidations
+    Ng2Permission
   ]
 })
 ```
 
-## Available validations
+## Documentation and examples
 
-* [`blackList`](./doc/blackListValidation.md)
-* [`remoteValidation`](./doc/remoteValidation.md)
+* [`Managing permissions`](./doc/managing-permissions.md)
+* [`Controlling access in views`](./doc/controlling-access-in-views.md)
+* [`Router guard permission`](./doc/router-guard-permission.md)
 
 ## License
 
