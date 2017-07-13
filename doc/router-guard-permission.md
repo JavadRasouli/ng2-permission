@@ -4,7 +4,7 @@
 
 Make sure you are familiar with:
 
-[Managing permissions](managing-permissions)
+[Managing permissions](managing-permissions.md)
 
 ## PermissionGuard
 
