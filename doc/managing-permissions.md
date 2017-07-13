@@ -2,14 +2,15 @@
 
 ## Overview
 
-[Defining permissions](#Defining-permissions)
-[Add permission](#Add-permission)
-[Has defined permission](#Has-defined-permission)
-[Has one defined](#Has-one-defined)
-[Removing permissions](#Removing-permissions)
-[Retrieving permission definitions](#Retrieving-permission-definitions)
+* [Defining permissions](#Defining-permissions)
+* [Add permission](#Add-permission)
+* [Has defined permission](#Has-defined-permission)
+* [Has one defined](#Has-one-defined)
+* [Removing permissions](#Removing-permissions)
+* [Retrieving permission definitions](#Retrieving-permission-definitions)
 
-## Defining permissions
+Defining permissions
+----------------------------
 
 ```typescript
 import { PermissionService } from 'angular2-permission';
