@@ -104,3 +104,7 @@ And then passed in view to permission attributes:
   Add New User
 </button>
 ```
+
+## License
+
+[`MIT`](./LICENSE.md)
