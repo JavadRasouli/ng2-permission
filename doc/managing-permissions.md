@@ -91,3 +91,7 @@ constructor(private _permissionService: PermissionService) {
 }
 
 ```
+
+## License
+
+[`MIT`](./LICENSE.md)
