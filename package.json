@@ -1,6 +1,6 @@
 {
   "name": "angular2-permission",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Fully featured permission based access control for your angular 2.0 applications.",
   "author": "Javad Rasouli ",
   "license": "MIT",
