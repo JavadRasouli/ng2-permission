@@ -6,24 +6,30 @@ export class PermissionService {
     private _permissionStoreChange: EventEmitter<any> = new EventEmitter();
 
     constructor() {
-        
+
     }
 
     public define(permissions: Array<string>): void {
         if (!Array.isArray(permissions))
             throw "permissions parameter is not array.";
 
+        this.clearStore();
         for (let permission of permissions)
             this.add(permission);
     }
 
     public add(permission: string): void {
-        this._permissionStore.push(permission);
-        this._permissionStoreChange.emit(null);
+        if (typeof permission === "string" && !this.hasDefined(permission.toLocaleLowerCase())) {
+            this._permissionStore.push(permission.toLocaleLowerCase());
+            this._permissionStoreChange.emit(null);
+        }
     }
 
     public remove(permission: string): void {
-        let index = this._permissionStore.indexOf(permission);
+        if (typeof permission !== "string")
+            return;
+
+        let index = this._permissionStore.indexOf(permission.toLowerCase());
         if (index < 0)
             return;
 
@@ -32,7 +38,10 @@ export class PermissionService {
     }
 
     public hasDefined(permission: string): boolean {
-        let index = this._permissionStore.indexOf(permission);
+        if (typeof permission !== "string")
+            return false;
+
+        let index = this._permissionStore.indexOf(permission.toLowerCase());
         return index > -1;
     }
 
@@ -41,7 +50,8 @@ export class PermissionService {
             throw "permissions parameter is not array.";
 
         return permissions.some(v => {
-            return this._permissionStore.indexOf(v) >= 0;
+            if (typeof v === "string")
+                return this._permissionStore.indexOf(v.toLowerCase()) >= 0;
         });
     }
 
@@ -53,7 +63,7 @@ export class PermissionService {
         return this._permissionStore;
     }
 
-    get permissionStoreChangeEmitter() {
+    get permissionStoreChangeEmitter(): EventEmitter<any> {
         return this._permissionStoreChange;
     }
 }

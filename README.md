@@ -31,6 +31,11 @@ import { Ng2Permission } from 'angular2-permission';
 * [`Controlling access in views`](./doc/controlling-access-in-views.md)
 * [`Router guard permission`](./doc/router-guard-permission.md)
 
+## داکیومنت فارسی
+
+[`کنترل دسترسی در انگولار 2`](http://codersblog.ir/post/?id=2006&slug=%DA%A9%D9%86%D8%AA%D8%B1%D9%84-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%AF%D8%B1-angular-%D8%A8%D8%A7-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-ng2perm)
+
+
 ## License
 
 [`MIT`](./LICENSE.md)
