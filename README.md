@@ -1,7 +1,7 @@
 ﻿
 Fully featured permission based access control for your angular 2.0 applications.
 
-this module inspired from [`angular-permission`](https://github.com/Narzerus/angular-permission).
+This module inspired from [`angular-permission`](https://github.com/Narzerus/angular-permission).
 
 ## Install
 
