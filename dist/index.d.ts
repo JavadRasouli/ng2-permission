@@ -1,4 +1,4 @@
-﻿export { HasPermissionDirective } from './directives/has-permission.directive';
+export { HasPermissionDirective } from './directives/has-permission.directive';
 export { ExceptPermissionDirective } from './directives/except-permission.directive';
 export { PermissionService } from './services/permission.service';
 export { PermissionGuard } from './services/permission.guard';

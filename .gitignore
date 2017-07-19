@@ -31,11 +31,6 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 
-# compiled output
-/dist
-/tmp
-/out-tsc
-
 # dependencies
 /node_modules
 

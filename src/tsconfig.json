@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noEmitHelpers": false,
+    "noImplicitAny": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "lib": ["dom", "es6"],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "./index.ts",
+    "./ng2-permission.ts"
+  ]
+}
