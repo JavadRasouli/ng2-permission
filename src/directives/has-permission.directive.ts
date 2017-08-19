@@ -39,7 +39,7 @@ export class HasPermissionDirective implements OnInit {
             else if (typeof this.onAuthorized === "string")
                 this._helper.ApplyStrategie(this.onAuthorized, this._elem);
             else
-                this._elem.nativeElement.style.display = 'inherit';
+                this._elem.nativeElement.style.display = '';
         }
     }
 

@@ -38,7 +38,7 @@ export class ExceptPermissionDirective implements OnInit {
             else if (typeof this.onUnauthorized === "string")
                 this._helper.ApplyStrategie(this.onUnauthorized, this._elem);
             else
-                this._elem.nativeElement.style.display = 'inherit';
+                this._elem.nativeElement.style.display = '';
         }
     }
 }
