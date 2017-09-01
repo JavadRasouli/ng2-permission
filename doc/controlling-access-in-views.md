@@ -42,7 +42,7 @@ Or set of permissions separated by 'coma':
 or this example all user access except 'GeustUser':
 
 ```html
-<button type="button" class="btn btn-danger btn-xs" [exceptPermission]="['GeustUser']">
+<button type="button" class="btn btn-danger btn-xs" [exceptPermission]="['GuestUser']">
   <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
   Delete
 </button>
