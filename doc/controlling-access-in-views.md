@@ -39,7 +39,7 @@ Or set of permissions separated by 'coma':
   Delete
 </button>
 ```
-or this example all user access except 'GeustUser':
+or this example all user access except 'GuestUser':
 
 ```html
 <button type="button" class="btn btn-danger btn-xs" [exceptPermission]="['GuestUser']">
@@ -63,7 +63,7 @@ To use different strategy pass it as value to ```onAuthorizedPermission``` and `
 
 ```html
 <button type="button" class="btn btn-danger btn-xs" 
-  [hasPermission]="['GeustUser']"
+  [hasPermission]="['GuestUser']"
   onAuthorizedPermission="enable"
   onUnauthorizedPermission="disable">
   <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
