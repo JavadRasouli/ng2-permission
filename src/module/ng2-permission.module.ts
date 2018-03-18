@@ -9,6 +9,13 @@ import { PermissionHelper } from '../services/permission-helper.service';
     declarations: [HasPermissionDirective, ExceptPermissionDirective],
     imports: [],
     exports: [HasPermissionDirective, ExceptPermissionDirective],
-    providers: [PermissionService, PermissionGuard, PermissionHelper],
+    providers: [],
 })
-export class Ng2Permission { }
+export class Ng2Permission {
+    static forRoot() {
+        return {
+            ngModule: Ng2Permission,
+            providers: [PermissionService, PermissionGuard, PermissionHelper]
+        }
+    }
+}
