@@ -20,7 +20,7 @@ import { Ng2Permission } from 'angular2-permission';
 
 @NgModule({
   imports: [
-    Ng2Permission
+    Ng2Permission.forRoot()
   ]
 })
 ```
